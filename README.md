@@ -8,6 +8,7 @@ Adding Firebase To Ionic Framework Intro to VueJS Camera App
 In the "Your First Ionic App: Vue" https://ionicframework.com/docs/vue/your-first-app from the ionic documentation, They show how to use the vue ionic and capacitor camera to take photos using the plugins and save them to local storage. In this video, I take that application and add firebase for saving and retrieving the photos from the firebase database
 
 - App might not work on some devices because the image being captured it too large for a base64 string
+- See video on YouTube [Adding Firebase To Ionic Framework Intro to VueJS Camera App](https://youtu.be/f3Fcje1GfSg)
 ---
 
 Get started with Ionic by building a photo gallery app that runs on iOS, Android, and the web - with just one codebase. This is the complete project referenced in the ["Your First App: Vue" guide](https://ionicframework.com/docs/vue/your-first-app). Follow along to create a complete CRUD (create-read-update-delete) experience.
