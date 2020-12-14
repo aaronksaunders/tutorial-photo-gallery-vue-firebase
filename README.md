@@ -1,4 +1,14 @@
-# Build Your First Ionic App: Photo Gallery (Ionic Vue and Capacitor)
+# Build Your First Ionic App: Photo Gallery (Ionic Vue and Capacitor) WITH FIREBASE!!
+
+----
+
+Adding Firebase To Ionic Framework Intro to VueJS Camera App
+#ionic #vuejs #firebase
+
+In the "Your First Ionic App: Vue" https://ionicframework.com/docs/vue/your-first-app from the ionic documentation, They show how to use the vue ionic and capacitor camera to take photos using the plugins and save them to local storage. In this video, I take that application and add firebase for saving and retrieving the photos from the firebase database
+
+- App might not work on some devices because the image being captured it too large for a base64 string
+---
 
 Get started with Ionic by building a photo gallery app that runs on iOS, Android, and the web - with just one codebase. This is the complete project referenced in the ["Your First App: Vue" guide](https://ionicframework.com/docs/vue/your-first-app). Follow along to create a complete CRUD (create-read-update-delete) experience.
 
@@ -16,14 +26,20 @@ After the user navigates to Tab 2 (Photos), they can tap/click on the camera but
   * Delete Photo dialog: [Action Sheet](https://ionicframework.com/docs/api/action-sheet) 
 * Native runtime: [Capacitor](https://capacitorjs.com)
   * Taking photos: [Camera API](https://capacitorjs.com/docs/apis/camera)
-  * Writing photo to the filesystem: [Filesystem API](https://capacitorjs.com/docs/apis/filesystem)
-  * Storing photo gallery metadata: [Storage API](https://capacitorjs.com/docs/apis/storage)
+  * [NEW] Writing photo to Firebase
+  * [NEW] Storing photo gallery in Firebase
 
 ## Project Structure
 * Tab2 (Photos) (`src/views/Tab2.vue`): Photo Gallery UI and basic logic.
-* usePhotoGallery Hook (`src/composables/usePhotoGallery.ts`): Logic encapsulating Capacitor APIs, including Camera, Filesystem, and Storage.
+* usePhotoGallery Hook (`src/composables/usePhotoGallery.ts`): Logic encapsulating Capacitor APIs, including Camera .
+* [NEW] firebase-service for interacting with firebase for CRUD Actions
 
 ## How to Run
+
+[NEW] You need to include a `.env` file in the root directory of your application that has your firebase configuration
+```
+VUE_APP_FIREBASE_PROJECT_ID=your-project-id
+```
 
 > Note: It's highly recommended to follow along with the [tutorial guide](https://ionicframework.com/docs/vue/your-first-app), which goes into more depth, but this is the fastest way to run the app. 
 
