@@ -39,7 +39,7 @@ After the user navigates to Tab 2 (Photos), they can tap/click on the camera but
 ## Project Structure
 * Tab2 (Photos) (`src/views/Tab2.vue`): Photo Gallery UI and basic logic.
 * usePhotoGallery Hook (`src/composables/usePhotoGallery.ts`): Logic encapsulating Capacitor APIs, including Camera .
-* [NEW] firebase-service for interacting with firebase for CRUD Actions
+* [NEW] firebase-service (`src/firebase-service.ts`) for interacting with firebase for CRUD Actions
 
 ## How to Run
 
