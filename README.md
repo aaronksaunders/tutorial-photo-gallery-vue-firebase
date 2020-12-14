@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="Screen Shot 2020-12-14 at 12.34.22 AM.png"  height="450" /><br />
+</p>
+<br/>
+
 # Build Your First Ionic App: Photo Gallery (Ionic Vue and Capacitor) WITH FIREBASE!!
 
 ----
