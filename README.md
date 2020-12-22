@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="Screen Shot 2020-12-14 at 12.34.22 AM.png"  height="450" /><br />
+  <img src="Screen Shot 2020-12-14 at 12.34.22 AM.png"  width="80%" /><br />
 </p>
 <br/>
 
